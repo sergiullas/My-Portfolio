@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sergioantezana.com/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://sergioantezana.com/resume</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2025-12-05</lastmod>
   </url>
   <url>
     <loc>https://sergioantezana.com/portfolio</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2025-12-05</lastmod>
+  </url>
+  <url>
+    <loc>https://sergioantezana.com/resume</loc>
+    <lastmod>2025-12-05</lastmod>
   </url>
   <url>
     <loc>https://sergioantezana.com/wip</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2025-12-05</lastmod>
+  </url>
+  <url>
+    <loc>https://sergioantezana.com/case-studies/low-code-case-management</loc>
+    <lastmod>2025-12-05</lastmod>
+  </url>
+  <url>
+    <loc>https://sergioantezana.com/case-studies/portfolio-and-resume-system</loc>
+    <lastmod>2025-12-05</lastmod>
   </url>
 </urlset>
