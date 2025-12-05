@@ -18,13 +18,10 @@ import * as React from "react";
 import { Box, Container, Stack, Typography } from "@mui/material";
 
 import { useHeaderNameVisibility } from "../context/HeaderNameContext.jsx";
-import ResumeHero from "../components/resume/ResumeHero.jsx";
+import ResumeView from "../components/Resume/ResumeView.jsx";
 import ResumeSectionNav from "../components/resume/ResumeSectionNav.jsx";
 import ResumeSection from "../components/resume/ResumeSection.jsx";
-import ResumeExperience from "../components/resume/ResumeExperience.jsx";
-import ResumeRecruiterCard from "../components/resume/ResumeRecruiterCard.jsx";
 import ContactSection from "../sections/ContactSection";
-import EducationAndCertifications from "../components/resume/EducationAndCertifications.jsx";
 
 import {
   SECTION_ITEMS,
@@ -95,9 +92,7 @@ export default function MyResumePage() {
         <Container maxWidth="md">
           <Box sx={{ maxWidth: 880, mx: "auto", px: { xs: 2, md: 6 } }}>
             <Stack spacing={4}>
-              <ResumeHero ref={heroRef} />
-
-              <ResumeRecruiterCard />
+              <ResumeView ref={heroRef} />
               <ResumeSectionNav
                 items={SECTION_ITEMS}
                 activeSection={activeSection}
@@ -131,11 +126,6 @@ export default function MyResumePage() {
                 </Box>
               </ResumeSection>
 
-              {/* EXPERIENCE */}
-              <ResumeSection id="experience" label="Experience">
-                <ResumeExperience />
-              </ResumeSection>
-
               {/* PROJECTS */}
               <ResumeSection id="projects" label="Projects highlights">
                 <Box component="ul" sx={{ pl: 2.5, m: 0, maxWidth: "70ch" }}>
@@ -147,13 +137,6 @@ export default function MyResumePage() {
                     </li>
                   ))}
                 </Box>
-              </ResumeSection>
-
-              <ResumeSection
-                id="education-certifications"
-                label="Education & Certifications"
-              >
-                <EducationAndCertifications />
               </ResumeSection>
             </Stack>
           </Box>

@@ -206,6 +206,26 @@ export const EXPERIENCE = {
       programs: "CDRH",
     },
   ],
+  federalPrograms: [
+    "08/2023 – Current – Chameleon Project – Federal Bureau of Investigation (FBI)",
+    "09/2022 – 07/2023 – DELTA Project – Federal Bureau of Investigation (FBI)",
+    "01/2021 – 09/2022 – NGNCP Project – Federal Bureau of Investigation (FBI)",
+    "02/2021 – 11/2021 – IPAS Project – U.S. EUCOM and Joint Analysis Center (JAC)",
+    "10/2020 – 03/2021 – CDRH Project – Food and Drug Administration (FDA)",
+    "08/2019 – 10/2020 – EPAS Project – Federal Bureau of Investigation (FBI)",
+    "05/2016 – 07/2019 – USTP Project – Department of Justice (DoJ)",
+    "09/2017 – 07/2018 – JIDO Project – Department of Defense (DoD)",
+    "01/2016 – 09/2016 – D3 Project – Defense Intelligence Agency (DIA)",
+    "04/2015 – 10/2015 – SEVIS Project – Department of Homeland Security (DHS)",
+    "09/2013 – 10/2015 – OSCAR Project – Defense Intelligence Agency (DIA)",
+    "04/2014 – 10/2014 – COUGAR Project – Defense Intelligence Agency (DIA)",
+    "10/2013 – 03/2014 – Black Forest Project – Defense Intelligence Agency (DIA)",
+    "02/2013 – 08/2013 – CRATE Project – Defense Intelligence Agency (DIA)",
+    "08/2012 – 02/2013 – ICE CMM Project – Department of Homeland Security (DHS)",
+    "06/2010 – 08/2012 – DRAMRS Project – Director of National Intelligence (ODNI)",
+    "09/2009 – 06/2010 – ICE SEVIS II Project – Department of Homeland Security (DHS)",
+    "11/2008 – 09/2010 – RAMP Project – Department of Homeland Security (DHS)",
+  ],
 };
 
 export const PROJECTS = [
