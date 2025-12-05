@@ -49,17 +49,15 @@ async function getLatestModifiedDate(sourcePaths) {
 }
 
 async function buildUrlEntries() {
-  const entries = [];
-
-  for (const route of routeConfigs) {
-    const lastmod = await getLatestModifiedDate(route.sources);
-    entries.push({
-      loc: `${baseUrl}${route.path}`,
-      lastmod: formatDate(lastmod),
-    });
-  }
-
-  return entries;
+  return Promise.all(
+    routeConfigs.map(async (route) => {
+      const lastmod = await getLatestModifiedDate(route.sources);
+      return {
+        loc: `${baseUrl}${route.path}`,
+        lastmod: formatDate(lastmod),
+      };
+    })
+  );
 }
 
 function buildXml(urlEntries) {
