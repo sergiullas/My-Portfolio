@@ -114,7 +114,7 @@ function NameWithPronunciation({ name }) {
     ref
       .play()
       .then(() => setPlayingId(id))
-      .catch(() => {});
+      .catch((error) => console.error("Audio playback failed:", error));
   };
 
   React.useEffect(() => {
