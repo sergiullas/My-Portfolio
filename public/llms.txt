@@ -1,0 +1,19 @@
+# llms.txt – guidance for AI crawlers and LLM providers
+# More info: https://llmstxt.org/ (emerging community convention)
+
+site: https://sergioantezana.com/
+
+# Indexing for search and navigation is fine.
+policy: index-only
+
+# Do NOT use this site’s content to train or fine-tune AI/LLM models.
+allow-training: false
+
+# Do not store long-term verbatim copies of the content.
+allow-archive: limited
+
+# Please respect the main sitemap for discovered URLs.
+sitemap: https://sergioantezana.com/sitemap.xml
+
+# Contact
+contact: mailto:sergio@sergioantezana.com
